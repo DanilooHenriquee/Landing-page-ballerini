@@ -1,12 +1,15 @@
 # Landing Page Ballerini
 
-<h3> Projeto de uma landing page sobre o balle bot do discord. </h3>
+<h2> Projeto de uma landing page sobre o Balle Bot do discord. </h2>
 
 <p>Nesse projeto foram utilizadas as seguintes tecnologias: </p>
 <p>HTML5</p>
 <p>CSS3</p>
 
-<p>Foram feitas as seguintes melhorias em comparação ao projeto principal, feito pela Rafaella Ballerini.</p>
+#
+
+<h2>O Projeto foi feito com acompanhamento do tutorial no youtube da Rafaella Ballerini.</h2>
+<h3>Foram feitas as seguintes melhorias em comparação ao projeto principal. São Elas:</h3>
 
 <p>Adicionada responsividade ao projeto</p>
 <p>Na visualização em dispositivos moveis, foi alterado o menu principal para um menu hamburguer</p>
