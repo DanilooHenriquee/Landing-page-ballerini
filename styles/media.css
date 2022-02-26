@@ -1,0 +1,19 @@
+@media (max-width: 730px) {
+
+    header nav ul.desktop-nav {
+        display: none;
+    }
+    
+    header nav ul.mobile-nav {
+        display: none;
+        /* display: flex; */
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    body {
+        background-color: orange;
+    }
+
+
+}

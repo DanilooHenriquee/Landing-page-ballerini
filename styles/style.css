@@ -25,10 +25,14 @@ header nav img.header-logo {
     height: 72px;
 }
 
-header nav ul {
+header nav ul.desktop-nav {
     display: flex;
     flex-direction: row;
     gap: 32px;
+}
+
+header nav ul.mobile-nav {
+    display: none;
 }
 
 header nav ul li {
