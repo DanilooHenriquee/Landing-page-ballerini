@@ -31,7 +31,10 @@
         margin-top: 30px;
     }
 
-    
+    header nav ul.nav-menu li a {
+        padding: 20px 60px;
+    }
+
     header nav div.mobile-menu.active :nth-child(1) {
         transform: rotate(-45deg) translate(-8px, 8px);
     }
