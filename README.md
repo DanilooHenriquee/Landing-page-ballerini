@@ -5,6 +5,7 @@
 <p>Nesse projeto foram utilizadas as seguintes tecnologias: </p>
 <p>HTML5</p>
 <p>CSS3</p>
+<p>JavaScript</p>
 
 #
 
