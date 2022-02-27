@@ -25,14 +25,22 @@ header nav img.header-logo {
     height: 72px;
 }
 
-header nav ul.desktop-nav {
+header nav ul.nav-menu {
     display: flex;
     flex-direction: row;
     gap: 32px;
 }
 
-header nav ul.mobile-nav {
+header nav div.mobile-menu {
     display: none;
+}
+
+header nav div.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
 }
 
 header nav ul li {
@@ -105,9 +113,7 @@ main section.conteudo-secundario {
     flex-direction: column;
     gap: 24px;
     align-items: center;
-    margin-top: 48px;
-
-
+    margin: 48px 40px 0px;
 }
 
 section.conteudo-secundario h3 {
@@ -136,4 +142,20 @@ footer img.footer-logo {
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+
+.nav-menu.active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
