@@ -19,6 +19,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
     padding: 24px 0px;
+    position: relative;
 }
 
 header nav img.header-logo {
@@ -142,20 +143,4 @@ footer img.footer-logo {
     height: 48px;
     display: block;
     margin: 0 auto;
-}
-
-.nav-menu.active {
-    transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }

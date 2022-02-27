@@ -7,6 +7,12 @@
         width: 100%;
     }
 
+    header nav img.header-logo {
+        display: flex;
+        order: 1;
+        cursor: pointer;
+    }
+
     header nav div.mobile-menu {
         display: block;
         cursor: pointer;
@@ -15,14 +21,14 @@
     header nav ul.nav-menu {
         position: absolute;
         top: 121px;
-        right: 0px;
+        left: 0px;
         width: 100vw;
         height: calc(100vh - 121px);
         background: rgba(47, 35, 37, 0.7);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        transform: translateX(100%);
+        transform: translateX(-100%);
         transition: transform 0.3s ease-in;
     }
 
@@ -81,5 +87,22 @@
         padding: 40px;
     }
 
+    /* Animação nav-menu */
 
+    .nav-menu.active {
+        transform: translateX(0);
+    }
+    
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
 }
