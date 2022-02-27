@@ -29,7 +29,6 @@ header nav ul.nav-menu {
     display: flex;
     flex-direction: row;
     gap: 32px;
-    transform: translateX(100%);
 }
 
 header nav div.mobile-menu {

@@ -4,6 +4,7 @@
 
     body {
         overflow-x: hidden;
+        width: 100%;
     }
 
     header nav div.mobile-menu {
@@ -14,6 +15,7 @@
     header nav ul.nav-menu {
         position: absolute;
         top: 121px;
+        right: 0px;
         width: 100vw;
         height: calc(100vh - 121px);
         background: rgba(47, 35, 37, 0.7);
@@ -33,6 +35,8 @@
     header nav ul.nav-menu li a {
         padding: 20px 60px;
     }
+
+    /* Animação Hamburguer */
 
     header nav div.mobile-menu.active :nth-child(1) {
         transform: rotate(-45deg) translate(-8px, 8px);
@@ -66,7 +70,7 @@
     }
 
     div.div-secundaria img.ballebot-img {
-        width: 430px;
+        width: 380px;
         display: block;
         margin: 0 auto;
     }
