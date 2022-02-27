@@ -14,7 +14,6 @@
     header nav ul.nav-menu {
         position: absolute;
         top: 121px;
-        right: 0;
         width: 100vw;
         height: calc(100vh - 121px);
         background: rgba(47, 35, 37, 0.7);
